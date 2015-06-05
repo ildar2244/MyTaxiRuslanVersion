@@ -1,4 +1,4 @@
-package taxidriver.ru.mytaxiruslanversion;
+package taxidriver.ru.mytaxiruslanversion.clientpages;
 
 import android.app.AlertDialog;
 import android.app.Service;

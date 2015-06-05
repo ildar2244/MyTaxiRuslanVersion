@@ -40,23 +40,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="taxidriver.ru.mytaxiruslanversion.taxipages.AllClientsActivity"
+            android:name="taxidriver.ru.mytaxiruslanversion.clientpages.AllClientsActivity"
             android:label="Список всех клиентов" >
         </activity>
         <activity
-            android:name="taxidriver.ru.mytaxiruslanversion.taxipages.TaxiDriversActivity"
+            android:name="taxidriver.ru.mytaxiruslanversion.driverpages.TaxiDriversActivity"
             android:label="Список всех клиентов" >
         </activity>
         <activity
-            android:name="taxidriver.ru.mytaxiruslanversion.taxipages.ClientsActivity"
+            android:name="taxidriver.ru.mytaxiruslanversion.clientpages.ClientsActivity"
             android:label="Список всех клиентов" >
         </activity>
         <activity
-            android:name="taxidriver.ru.mytaxiruslanversion.taxipages.AllTaxiListActivity"
+            android:name="taxidriver.ru.mytaxiruslanversion.driverpages.AllTaxiListActivity"
             android:label="Список всех таксистов" >
         </activity>
         <activity
-            android:name="taxidriver.ru.mytaxiruslanversion.taxipages.NewTaxiActivity"
+            android:name="taxidriver.ru.mytaxiruslanversion.driverpages.NewTaxiActivity"
             android:label="Добавить нового таксиста" >
         </activity>
 
@@ -69,7 +69,7 @@
             android:value="AIzaSyBvhZZvRVvtKSrzsA297cS4FfdFAke5gLI" />
 
         <activity
-            android:name="taxidriver.ru.mytaxiruslanversion.MapsActivity"
+            android:name="taxidriver.ru.mytaxiruslanversion.map.MapsActivity"
             android:label="@string/title_activity_maps" >
         </activity>
     </application>

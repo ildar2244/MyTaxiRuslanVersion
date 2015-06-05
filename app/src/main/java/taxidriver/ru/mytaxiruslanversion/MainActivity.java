@@ -10,11 +10,8 @@ import android.widget.Button;
 
 import com.axel.mysqlphpjson.R;
 
-import taxidriver.ru.mytaxiruslanversion.taxipages.AllClientsActivity;
-import taxidriver.ru.mytaxiruslanversion.taxipages.AllTaxiListActivity;
-import taxidriver.ru.mytaxiruslanversion.taxipages.ClientsActivity;
-import taxidriver.ru.mytaxiruslanversion.taxipages.NewTaxiActivity;
-import taxidriver.ru.mytaxiruslanversion.taxipages.TaxiDriversActivity;
+import taxidriver.ru.mytaxiruslanversion.clientpages.ClientsActivity;
+import taxidriver.ru.mytaxiruslanversion.driverpages.TaxiDriversActivity;
 
 
 public class MainActivity extends ActionBarActivity {

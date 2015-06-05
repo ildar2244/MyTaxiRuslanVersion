@@ -1,4 +1,4 @@
-package taxidriver.ru.mytaxiruslanversion.taxipages;
+package taxidriver.ru.mytaxiruslanversion.driverpages;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,24 +9,22 @@ import android.widget.Button;
 
 import com.axel.mysqlphpjson.R;
 
-import taxidriver.ru.mytaxiruslanversion.MapsActivity;
-
 
 /**
  * Created by Руслан on 30.05.2015.
  */
-public class ClientsActivity extends Activity implements View.OnClickListener{
-    public Button all_clients;
-    public Button drivers_on_map;
+public class TaxiDriversActivity extends Activity implements View.OnClickListener{
+    public Button all_drivers;
+    public Button add_new_driver;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_clients);
-        all_clients = (Button) findViewById(R.id.btn1);
-        drivers_on_map = (Button) findViewById(R.id.btn2);
-        all_clients.setOnClickListener(this);
-        drivers_on_map.setOnClickListener(this);
+        setContentView(R.layout.activity_drivers);
+        all_drivers = (Button) findViewById(R.id.btn1);
+        add_new_driver = (Button) findViewById(R.id.btn2);
+        all_drivers.setOnClickListener(this);
+        add_new_driver.setOnClickListener(this);
 
     }
 
@@ -40,11 +38,11 @@ public class ClientsActivity extends Activity implements View.OnClickListener{
     @Override
     public void onClick(View v) {
         if(v.getId() == R.id.btn1) {
-            Intent i = new Intent(getApplicationContext(), AllClientsActivity.class);
+            Intent i = new Intent(getApplicationContext(), AllTaxiListActivity.class);
             startActivity(i);
         }
         if(v.getId() == R.id.btn2) {
-            Intent i = new Intent(getApplicationContext(), MapsActivity.class);
+            Intent i = new Intent(getApplicationContext(), NewTaxiActivity.class);
             startActivity(i);
         }
     }

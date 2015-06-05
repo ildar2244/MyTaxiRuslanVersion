@@ -1,4 +1,4 @@
-package taxidriver.ru.mytaxiruslanversion.taxipages;
+package taxidriver.ru.mytaxiruslanversion.driverpages;
 
 import android.app.Activity;
 import android.os.AsyncTask;
